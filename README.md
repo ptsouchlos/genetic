@@ -2,14 +2,17 @@
 genetic
 </h1>
 
-[![say thanks](https://img.shields.io/badge/Say%20Thanks-👍-1EAEDB.svg)](https://github.com/DeveloperPaul123/genetic/stargazers)
+[![say thanks](https://img.shields.io/badge/Say%20Thanks-👍-1EAEDB.svg)](https://github.com/ptsouchlos/genetic/stargazers)
 [![Discord](https://img.shields.io/discord/652515194572111872)](https://discord.gg/CX2ybByRnt)
 
 A flexible and performant implementation of the genetic algorithm in C++20/23.
 
+> **Note:** The GitHub account for this project was renamed from `DeveloperPaul123` to `ptsouchlos`. Repository ownership and history are unchanged.
+
 ## Features
 
 - Built entirely with C++20/23
+- Includes many default operators for most use cases
 - Supply your own operations for:
   - Selection
   - Crossover
@@ -39,7 +42,7 @@ Alternatively, you can use something like [CPM](https://github.com/TheLartians/C
 ```cmake
 CPMAddPackage(
     NAME genetic
-    GITHUB_REPOSITORY DeveloperPaul123/genetic
+    GITHUB_REPOSITORY ptsouchlos/genetic
     GIT_TAG 0.1.0 # change this to latest commit or release tag
 )
 ```
@@ -80,7 +83,7 @@ constexpr dp::genetic::algorithm_settings settings{0.1, 0.5, 0.25};
 
 // generate an initial random population
 constexpr auto population_size = 2;
-std::vector<knapsack> initial_population{};  // TODO: Generate initial population
+std::vector<knapsack> initial_population{};
 initial_population.reserve(population_size);
 
 // generate the initial population
@@ -110,7 +113,7 @@ This project has been built with:
 
 - Visual Studio 2022
 - Clang `10.+` (via WSL on Windows)
-- GCC `11.+` (vis WSL on Windows)
+- GCC `11.+` (via WSL on Windows)
 - CMake `3.21+`
 
 To build, run:
@@ -139,12 +142,11 @@ cmake --build build/test --target format
 # apply changes
 cmake --build build/test --target fix-format
 ```
-
 See [Format.cmake](https://github.com/TheLartians/Format.cmake) for details.
 
 ### Build the documentation
 
-The documentation is automatically built and [published](https://developerpaul123.github.io/genetic) whenever a [GitHub Release](https://help.github.com/en/github/administering-a-repository/managing-releases-in-a-repository) is created.
+The documentation is automatically built and [published](https://ptsouchlos.github.io/genetic) whenever a [GitHub Release](https://help.github.com/en/github/administering-a-repository/managing-releases-in-a-repository) is created.
 To manually build documentation, call the following command.
 
 ```bash
@@ -154,7 +156,7 @@ cmake --build build/doc --target GenerateDocs
 open build/doc/doxygen/html/index.html
 ```
 
-To build the documentation locally, you will need Doxygen and Graphviz on your system.
+To build the documentation locally, you will need [Doxygen](https://www.doxygen.nl/) and [Graphviz](https://graphviz.org/) on your system.
 
 ## Contributing
 
@@ -166,5 +168,5 @@ The project is licensed under the MIT license. See [LICENSE](LICENSE) for more d
 
 ## Author
 
-| [<img src="https://avatars0.githubusercontent.com/u/6591180?s=460&v=4" width="100"><br><sub>@DeveloperPaul123</sub>](https://github.com/DeveloperPaul123) |
+| [<img src="https://avatars0.githubusercontent.com/u/6591180?s=460&v=4" width="100"><br><sub>@ptsouchlos</sub>](https://github.com/ptsouchlos) |
 |:----:|
