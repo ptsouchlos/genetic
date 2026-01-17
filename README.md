@@ -7,6 +7,8 @@ genetic
 
 A flexible and performant implementation of the genetic algorithm in C++20/23.
 
+> **Note:** The GitHub account for this project was renamed from `DeveloperPaul123` to `ptsouchlos`. Repository ownership and history are unchanged.
+
 ## Features
 
 - Built entirely with C++20/23
