@@ -2,7 +2,7 @@
 genetic
 </h1>
 
-[![say thanks](https://img.shields.io/badge/Say%20Thanks-👍-1EAEDB.svg)](https://github.com/DeveloperPaul123/genetic/stargazers)
+[![say thanks](https://img.shields.io/badge/Say%20Thanks-👍-1EAEDB.svg)](https://github.com/ptsouchlos/genetic/stargazers)
 [![Discord](https://img.shields.io/discord/652515194572111872)](https://discord.gg/CX2ybByRnt)
 
 A flexible and performant implementation of the genetic algorithm in C++20/23.
@@ -40,7 +40,7 @@ Alternatively, you can use something like [CPM](https://github.com/TheLartians/C
 ```cmake
 CPMAddPackage(
     NAME genetic
-    GITHUB_REPOSITORY DeveloperPaul123/genetic
+    GITHUB_REPOSITORY ptsouchlos/genetic
     GIT_TAG 0.1.0 # change this to latest commit or release tag
 )
 ```
@@ -144,7 +144,7 @@ See [Format.cmake](https://github.com/TheLartians/Format.cmake) for details.
 
 ### Build the documentation
 
-The documentation is automatically built and [published](https://developerpaul123.github.io/genetic) whenever a [GitHub Release](https://help.github.com/en/github/administering-a-repository/managing-releases-in-a-repository) is created.
+The documentation is automatically built and [published](https://ptsouchlos.github.io/genetic) whenever a [GitHub Release](https://help.github.com/en/github/administering-a-repository/managing-releases-in-a-repository) is created.
 To manually build documentation, call the following command.
 
 ```bash
@@ -166,5 +166,5 @@ The project is licensed under the MIT license. See [LICENSE](LICENSE) for more d
 
 ## Author
 
-| [<img src="https://avatars0.githubusercontent.com/u/6591180?s=460&v=4" width="100"><br><sub>@DeveloperPaul123</sub>](https://github.com/DeveloperPaul123) |
+| [<img src="https://avatars0.githubusercontent.com/u/6591180?s=460&v=4" width="100"><br><sub>@ptsouchlos</sub>](https://github.com/ptsouchlos) |
 |:----:|
